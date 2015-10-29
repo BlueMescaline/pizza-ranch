@@ -1,0 +1,91 @@
+﻿html{
+background: url('../../images/body_bg.gif') repeat;
+}
+body{
+color: #4D1B02;
+}
+#heading{
+margin-top: -30px;
+margin-left:20%;
+}
+
+#container{
+min-height: 300px;
+margin-left: auto;
+margin-right: auto;
+width:70%;
+background-color: #EEE6BB;
+border: 15px solid #EBCC74;
+padding:20px;}
+
+.kartya{
+margin:auto;
+text-align: center;
+width:300px;
+height:175px;
+background-image: url('../../images/jobb_kartya.png');
+background-size:100%;
+
+}
+
+.reg_field {
+    width: 200px;
+    height: 17px;
+    display: block;
+    background: url('../../images/input_box_back.png') repeat-x scroll center top transparent;
+    border: 1px solid #B19879;
+    border-radius: 5px;
+    color: #4D1B06;
+    font-family: Verdana;
+    line-height: 17px;
+    font-size: 11px;
+    padding-left: 3px;
+}
+
+.fajtak{
+    text-align: center;
+    border: 3px solid black;
+    border-radius:15px;
+    height: 150px;
+    box-shadow: 0px 9px 2px #75715C;
+    margin-bottom: 300px;
+    background-image: url('../../images/pizza-3.jpg');
+}
+.fajtak a{
+    margin:auto;
+    color:black;
+    font-size:2em;
+}
+
+.pizzak{
+    width:50%;
+    margin: auto;
+border-spacing: 15px;
+}
+#map_canvas {
+    margin-left:10%;
+    width: 500px;
+    height: 400px;
+}
+
+#footer{
+    text-align: center;
+    width:100%;
+    background-color: #000000;
+    opacity: 0.4;
+    height:15%;
+    margin:auto;
+    padding-left:20px;
+    padding-right:20px;
+}
+#footer table{
+    width:70%;
+    text-align: center;
+    margin:auto;
+
+}
+#footer td{
+    height:50px;
+    font-size:small;
+    color:#EBCC74;
+}
